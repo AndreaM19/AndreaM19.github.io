@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
-        <meta name="author" content="">
+        <meta name="author" content="Andrea Marchetti">
         <link rel="icon" href="img/favicon/icon.png">
         
         <title>Andrea Marchetti</title>
@@ -13,9 +13,11 @@
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         
-        <!-- Custom styles for this template -->
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/navbar.css" rel="stylesheet">
+        <!-- Custom styles -->
+        <link href="css/style/style.css" rel="stylesheet">
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
         
         <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
         <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -33,63 +35,159 @@
         <!-- Welcome -->
         <div class="welcome text-center">
         	<h1>A.<b>M.</b></h1>
+            <h3>Andrea Marchetti WEB Portfolio</h3>
               <div class="start">
                   <a href="#PageContents">
                       <h2>START</h2>
-                      <span class="glyphicon glyphicon-download" aria-hidden="true"></span>
+                      <span class="glyphicon glyphicon-menu-down go" aria-hidden="true"></span>
                   </a>
               </div>
         </div>
         <!-- End of Welcome -->
         
-        
-    	<!-- Navbar -->
-    	<?php
-			//include('include/navbar/navbar.php');
-		?>
-        <!-- End of navbar -->
     
         <!-- Begin page content -->
-        <div class="container" style="min-height:800px; padding-bottom:40px;">
+        <div class="container">
         	<br>
             <div id="PageContents"><br></div>
           
-            <div class="col-md-6">
+            <div class="col-md-8">
             	<h1 class="name">
                     ANDREA 
                     <br>
                     MARCHETTI
             	</h1>
-            	<h2>About me:</h2>
+            	<h2>Something about me:</h2>
                 <h4>Computer Engineer, Electronic Music Expert</h4>
                 <p class="text-justify">
-                	Hi, I am a lover of music, technology and photography. I graduated in Computer Engineering and Automation. My main passions are computer music and electronics. I also love work with WEB develop and Java Programmin
+                	Degree in Computer Engineering from the Polytechnic University of Marche, and previously graduated from the Technical Institute for Surveyors of Pesaro. Particularly interested in the world WEB, the object-oriented programming, and management of communication networks. Passionate also for electronics and music, musician since childhood, with a particular interest in the music technologies and computer music.
                 </p>
             </div>
             
-            <div class="col-md-6">
-            	<div class="col-md-12 square-photo"></div>
+            <div class="col-md-4">
+            	<!--<div class="col-md-12 square-photo"></div>-->
+                <div class="profile-image-container">
+                <img src="img/photo.jpg" class="img-responsive img-circle profile-image">
+                </div>
             </div>
-        	
-			<div class="col-md-12" style="height:60px;"></div>
-          
-          	<h2>Works, Projects and Ideas</h2>
-            <br>
+		</div>
+        
+        <div class="col-md-12 text-center works">
+        	<h2>WORKS, PROJECTS AND IDEAS...</h2>
+            <h5>Something about my projects, my best works...and good ideas :-)</h5>
+            <a href="#Works"><span class="glyphicon glyphicon-menu-down go-black" aria-hidden="true"></span></a>
+        </div>
+        
+        
+        <div class="container">
+        	<div id="Works"><br></div>
             <div class="col-md-12">
-            	<div class="col-md-3 square text-center"><h2>WEB</h2></div>
-                <div class="col-md-3 square text-center"><h2>PROGRAMMING</h2></div>
+            	<!--
+            	<a href="#web"><div class="col-md-2 square"><h3>WEB</h3></div></a>
+                <a href="#prog"><div class="col-md-2 square"><h3>Programming</h3></div></a>           
+                <a href="#raspi"><div class="col-md-2 square"><h3>Raspberry Pi</h3></div></a>
+                <a href="#music"><div class="col-md-2 square"><h3>Music</h3></div></a>
+                <a href="#other"><div class="col-md-4 square"><h3>Other</h3></div></a>
+                -->
                 
-                <div class="col-md-3 square text-center"><h2>RASPBERRY PI</h2></div>
-                <div class="col-md-3 square text-center"><h2>OTHER</h2></div>
+                <div class="col-md-8 project-viewer">
+                	<div id="web" class="project">
+                    	<h2>WEB projects</h2>
+                        
+                	</div>
+                </div>
+                
+                <div class="col-md-4 project-viewer">
+                    <div id="prog" class="project">
+                    	<h2>Programming</h2>
+                        
+                	</div>
+                </div>
+                
+                <div class="col-md-4 project-viewer">    
+                    <div id="raspi" class="project">
+                    	<h2>Raspberry Pi</h2>
+                        
+                	</div>
+                </div>
+                
+                <div class="col-md-8 project-viewer">    
+                    <div id="music" class="project">
+                    	<h2>Music</h2>
+                        
+                	</div>
+                </div>
+                
+                <div class="col-md-12 project-viewer">   
+                    <div id="other" class="project">
+                    	<h2>Other</h2>
+                        
+                	</div>    
+                </div>
+                
             </div>
             
+        </div>
+        
+        <div class="col-md-12 text-center works">
+        	<h2>INFORMATIC BACKGROUND SKILLS</h2>
+            <h5>A simple representation of my informatics skills...</h5>
+            <a href="#Skills"><span class="glyphicon glyphicon-menu-down go-black" aria-hidden="true"></span></a>
+        </div>
+        
+        <div class="container">
+        	<div id="Skills"><br></div>
+        	<div class="col-md-7" style="background-color:#FFF;">
+            <br>
+            	<canvas id="myCanvas" width="600" height="380">Your browser does not support the HTML5 canvas tag.</canvas>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4 text-justify">
+            	<h1>My knowledge...</h1>
+            	<h4>This graph is a representation of my current comfort level and skill in each informatic language.</h4>
+                <br><br>
+                <div class="col-md-4"><img src="img/skills/html5.png" class="img-responsive" title="HTML 5" alt="HTML 5"></div>
+                <div class="col-md-4"><img src="img/skills/css3.png" class="img-responsive" title="CSS 3" alt="CSS 3"></div>
+                <div class="col-md-4"><img src="img/skills/js3.png" class="img-responsive" title="Javascript" alt="Javascript"></div>
+                <div class="col-md-12" style="height:40px;"></div>
+               	<div class="col-md-3"><img src="img/skills/php.png" class="img-responsive" title="PHP" alt="PHP"></div>
+                <div class="col-md-3"><img src="img/skills/mysql.png" class="img-responsive" title="MySql" alt="MySql"></div>
+                <div class="col-md-3"><img src="img/skills/java.png" class="img-responsive" title="Java" alt="Java"></div>
+                <div class="col-md-3"><img src="img/skills/python.png" class="img-responsive" title="Python" alt="Python"></div>
+            </div>
         </div>
         <!-- End of page content -->
         
         <!-- Footer -->
-        <?php
-			include('include/footer/footer.html');
-		?>
+        <footer class="footer">
+        	<div class="container">
+	            <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <h3>Contact Me:</h3>
+                    <p>Send me an e-mail at my personal mail address: <a href="#">Andrea Marchetti</a></p>
+                    <h3>Read my CV:</h3>
+                    <p>Click <a href="https://db.tt/p5N0DGOS" target="_blank"><b>HERE</b></a> to download my CV</p>
+                </div>
+
+                <div class="col-md-5 socials">
+                    <h3>Socials:</h3>
+                    <a href="http://goo.gl/zYk22j" target="_blank"><div class="fa fa-facebook-square fa-3x"></div></a>
+                    <a href="http://goo.gl/sNhhqs" target="_blank"><div class="fa fa-linkedin-square fa-3x"></div></a>
+                    <a href="http://goo.gl/8H2lcc" target="_blank"><div class="fa fa-flickr fa-3x"></div></a>
+                    <a href="http://goo.gl/fpoifd" target="_blank"><div class="fa fa-github-square fa-3x"></div></a>
+                    <a href="#" target="_blank"><div class="fa fa-skype fa-3x"></div></a>
+                    <a href="#" target="_blank"><div class="fa fa-soundcloud fa-3x"></div></a>
+                </div>
+                <div class="col-md-1"></div>
+                            
+                <div class="col-md-12 text-center">
+                	<br>
+                	<hr>
+                    <h6>Andrea Marchetti official Portfolio - All rights Reserved</h6>
+                    <br>
+                </div>
+            </div>
+		</footer>    
         <!-- End of footer -->
         
         <!-- Bootstrap core JavaScript
@@ -101,7 +199,7 @@
         <script src="js/ie10-viewport-bug-workaround.js"></script>
         
         <!-- Smooth navigation -->
-        <script>
+        <script type="text/javascript">
 		$(function() {
 			$('a[href*=#]:not([href=#])').click(function() {
 				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
@@ -117,6 +215,44 @@
 			});
 		});
     	</script>
+		
+        
+        <!-- Skills -->
+        <script type="text/javascript">
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.font = "18px Arial";
+            
+			//Skills
+			ctx.fillStyle = "#55A";
+            ctx.fillRect(150, 10, 400, 40);
+            ctx.fillText("HTML",30,40);
+            
+			ctx.fillStyle = "#55A";
+            ctx.fillRect(150, 60, 400, 40);
+            ctx.fillText("CSS",30,90);
+            
+			ctx.fillStyle = "#55A";
+            ctx.fillRect(150, 110, 270, 40);
+            ctx.fillText("Javascript",30,140);
+            
+			ctx.fillStyle = "#141";
+            ctx.fillRect(150, 160, 350, 40);
+            ctx.fillText("PHP",30,190);
+			
+			ctx.fillStyle = "#141";
+			ctx.fillRect(150, 210, 330, 40);
+            ctx.fillText("MySql",30,240);
+			
+			ctx.fillStyle = "#B55";
+			ctx.fillRect(150, 260, 180, 40);
+            ctx.fillText("Python",30,290);
+			
+			ctx.fillStyle = "#B55";
+			ctx.fillRect(150, 310, 380, 40);
+            ctx.fillText("Java",30,340);
 
+            ctx.stroke();
+		</script>
     </body>
 </html>
