@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* CSS Document dd4814*/
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	background-color:#EEE;
+	color:#000;
+}
+
+.welcome{
+	min-height:100%;
+	background-color:#BD4;
+	padding-top:30px;
+}
+
+.welcome h1{
+	margin:0 auto;
+	font-size:350px;
+	color:#FFF;
+}
+
+.welcome h1 b{
+	font-size:200px;
+	color:#000;
+	font-weight:bolder;
+}
+
+.welcome h3{
+	margin-top:-20px;
+	margin-bottom:40px;
+}
+
+.welcome .start{
+	width:20%;
+	margin:0 auto;
+}
+
+.welcome .start a{
+	color:#FFF;
+	font-size:36px;
+}
+
+a span.go{
+	font-size:100px;
+	color:#FFF;
+}
+
+a span.go-black{
+	font-size:100px;
+	color:#000;
+}
+
+.welcome .start a:hover{
+	text-decoration:none;
+}
+
+.welcome .start a:active{
+	text-decoration:none;
+}
+
+.profile-image-container{
+	padding:20px; 
+	background-color:#BD4; 
+	border-radius:0px 200px 0px 200px; 
+	/*border:solid 10px #585;*/
+}
+
+.profile-image-container .profile-image{
+	margin:0 auto;
+}
+
+.footer{
+	width: 100%;
+	min-height: 70px;
+	background-color:#666;
+	color:#FFF;
+	margin-top:60px;
+}
+
+.footer a{
+	color:#FFF;
+}
+
+.footer .socials div{
+	margin:5px;
+}
+
+h1.name{
+	color:#585;
+	font-size:80px;
+	font-weight:bolder;
+}
+
+.works{
+	background-color:#BD4;
+	margin-bottom:40px;
+	margin-top:40px;
+	width:100%;
+	min-height:50%;
+}
+
+.works h2{
+	padding:10px; 
+	font-weight:bolder;
+	font-size:36px;
+	color:#222;
+}
+
+.square{
+	background-color:#666;
+	border:solid 5px #EEE;
+	height:70px;
+}
+
+.square h3{
+	color:#222;
+	font-size:20px;
+	font-weight:bolder;
+	color:#BD4;
+}
+
+.project-viewer{
+	background-color:#666;
+	min-height:400px;
+	border:solid 5px #EEE;
+}
+
+.project-viewer div.project{
+}
+
+.project-viewer div.project h2{
+	color:#BD4;
+	border-bottom:solid 2px #BD4;
+	width:60%;
+}
+
+
+
