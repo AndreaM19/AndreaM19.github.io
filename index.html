@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="img/favicon/icon.png">
+        
+        <title>Andrea Marchetti</title>
+        
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/navbar.css" rel="stylesheet">
+        
+        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+        <script src="js/ie-emulation-modes-warning.js"></script>
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+    	
+        <!-- Welcome -->
+        <div class="welcome text-center">
+        	<h1>A.<b>M.</b></h1>
+              <div class="start">
+                  <a href="#PageContents">
+                      <h2>START</h2>
+                      <span class="glyphicon glyphicon-download" aria-hidden="true"></span>
+                  </a>
+              </div>
+        </div>
+        <!-- End of Welcome -->
+        
+        
+    	<!-- Navbar -->
+    	<?php
+			//include('include/navbar/navbar.php');
+		?>
+        <!-- End of navbar -->
+    
+        <!-- Begin page content -->
+        <div class="container" style="min-height:800px; padding-bottom:40px;">
+        	<br>
+            <div id="PageContents"><br></div>
+          
+            <div class="col-md-6">
+            	<h1 class="name">
+                    ANDREA 
+                    <br>
+                    MARCHETTI
+            	</h1>
+            	<h2>About me:</h2>
+                <h4>Computer Engineer, Electronic Music Expert</h4>
+                <p class="text-justify">
+                	Hi, I am a lover of music, technology and photography. I graduated in Computer Engineering and Automation. My main passions are computer music and electronics. I also love work with WEB develop and Java Programmin
+                </p>
+            </div>
+            
+            <div class="col-md-6">
+            	<div class="col-md-12 square-photo"></div>
+            </div>
+        	
+			<div class="col-md-12" style="height:60px;"></div>
+          
+          	<h2>Works, Projects and Ideas</h2>
+            <br>
+            <div class="col-md-12">
+            	<div class="col-md-3 square text-center"><h2>WEB</h2></div>
+                <div class="col-md-3 square text-center"><h2>PROGRAMMING</h2></div>
+                
+                <div class="col-md-3 square text-center"><h2>RASPBERRY PI</h2></div>
+                <div class="col-md-3 square text-center"><h2>OTHER</h2></div>
+            </div>
+            
+        </div>
+        <!-- End of page content -->
+        
+        <!-- Footer -->
+        <?php
+			include('include/footer/footer.html');
+		?>
+        <!-- End of footer -->
+        
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="js/ie10-viewport-bug-workaround.js"></script>
+        
+        <!-- Smooth navigation -->
+        <script>
+		$(function() {
+			$('a[href*=#]:not([href=#])').click(function() {
+				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+					if (target.length) {
+						$('html,body').animate({
+							scrollTop: target.offset().top
+						}, 1000);
+						return false;
+					}
+				}
+			});
+		});
+    	</script>
+
+    </body>
+</html>

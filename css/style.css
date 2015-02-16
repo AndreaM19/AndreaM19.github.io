@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document dd4814*/
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	background-color:#FEE;
+	color:#000;
+}
+
+.welcome{
+	min-height:100%;
+	background-color:#C30;
+	padding-top:50px;
+}
+
+.welcome h1{
+	margin:0 auto;
+	font-size:350px;
+	color:#FFF;
+}
+
+.welcome h1 b{
+	font-size:200px;
+	color:#000;
+	font-weight:bolder;
+}
+
+.welcome .start{
+	width:20%;
+	margin:0 auto;
+}
+
+.welcome .start a{
+	color:#FFF;
+	font-size:36px;
+}
+
+.welcome .start a span{
+	font-size:100px;
+}
+
+.welcome .start a:hover{
+	text-decoration:none;
+}
+
+.welcome .start a:active{
+	text-decoration:none;
+}
+
+.square{
+	background-color:#C30;
+	border:solid 5px #FEE;
+	height:200px;
+}
+
+.square h2{
+	color:#FFF;
+	margin-top:70px;
+	font-size:30px;
+}
+
+.square-big{
+	background-color:#DDD;
+	border:solid 5px #FEE;
+	height:400px;
+}
+
+.square-photo{
+	background-color:#DDD;
+	background-image:url(../img/photo.jpg);
+	background-repeat:no-repeat;
+	background-size:122%;
+	overflow:hidden;
+	border:solid 5px #FEE;
+	height:400px;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color:#C30;
+  color:#FFF;
+}
+
+.container h1{
+	font-size:90px;
+	font-weight:bolder;
+}
+
+.container h1.name{
+	color:#A77;
+}
+
