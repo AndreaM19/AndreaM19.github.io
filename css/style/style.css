@@ -124,8 +124,9 @@ h1.name{
 
 .project-viewer{
 	background-color:#666;
-	min-height:400px;
+	min-height:200px;
 	border:solid 5px #EEE;
+	padding-bottom:20px;
 }
 
 .project-viewer div.project{
@@ -135,6 +136,31 @@ h1.name{
 	color:#BD4;
 	border-bottom:solid 2px #BD4;
 	width:60%;
+}
+
+.project-viewer div.project .box{
+	background-color:#888;
+	padding:10px;
+	border:solid 3px #666;
+	border-radius:10px;
+}
+
+.project-viewer div.project .box h4{
+	color:#000;
+}
+
+.project-viewer div.project .box p{
+	color:#FFF;
+	font-size:12px;
+}
+
+.project-viewer div.project .box a{
+	color:#BD4;
+	font-size:10px;
+}
+
+.project-viewer div.project .box a:hover{
+	color:#FFF;
 }
 
 
