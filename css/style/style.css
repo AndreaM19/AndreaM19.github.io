@@ -28,6 +28,37 @@ body{
 	font-weight:bolder;
 }
 
+@media (max-width:600px){
+	.welcome h1{
+		margin:0 auto;
+		font-size:250px;
+		color:#FFF;	
+	}
+	
+	.welcome h1 b{
+		font-size:150px;
+		color:#000;
+		font-weight:bolder;
+	}
+}
+
+@media (max-width:500px){
+	.welcome h1{
+		margin:0 auto;
+		font-size:150px;
+		color:#FFF;	
+	}
+	
+	.welcome h1 b{
+		font-size:50px;
+		color:#000;
+		font-weight:bolder;
+	}
+	.welcome h3{
+		font-size:20px;
+	}
+}
+
 .welcome h3{
 	margin-top:-20px;
 	margin-bottom:40px;
@@ -92,6 +123,18 @@ h1.name{
 	color:#585;
 	font-size:80px;
 	font-weight:bolder;
+}
+
+@media (max-width:600px){
+	h1.name{
+		font-size:65px;
+	}	
+}
+
+@media (max-width:500px){
+	h1.name{
+		font-size:50px;
+	}	
 }
 
 .works{
@@ -161,6 +204,27 @@ h1.name{
 
 .project-viewer div.project .box a:hover{
 	color:#FFF;
+}
+
+.skills{
+	background-color:#CCC;
+	padding:20px;
+}
+
+.skills button{
+	margin-right:10px;
+	margin-top:10px;
+	font-size:14px;
+}
+
+.gear{
+	margin:0 auto;
+}
+
+@media (max-width:991px){
+	.gear{
+		display:none;
+	}	
 }
 
 
