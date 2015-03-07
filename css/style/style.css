@@ -102,6 +102,18 @@ a span.go-black{
 	margin:0 auto;
 }
 
+@media (max-width:1199px){
+	.profile-image-container{
+		border-radius:0px 150px 0px 150px;
+	}
+}
+
+@media (max-width:991px){
+	.profile-image-container{
+		background-color:transparent; 
+	}
+}
+
 .footer{
 	width: 100%;
 	min-height: 70px;
@@ -124,6 +136,19 @@ h1.name{
 	font-weight:bolder;
 }
 
+@media (max-width:991px){
+	h1.name{
+		text-align:center;
+		font-size:100px;
+	}	
+}
+
+@media (max-width:650px){
+	h1.name{
+		font-size:70px;
+	}	
+}
+
 @media (max-width:600px){
 	h1.name{
 		font-size:65px;
@@ -133,6 +158,12 @@ h1.name{
 @media (max-width:500px){
 	h1.name{
 		font-size:50px;
+	}	
+}
+
+@media (max-width:400px){
+	h1.name{
+		font-size:40px;
 	}	
 }
 
