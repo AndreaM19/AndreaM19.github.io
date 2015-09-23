@@ -1,0 +1,161 @@
+a{
+	color:#BD4;
+}
+
+a:hover{
+	color:#BD4;
+	text-decoration:underline;
+}
+
+.welcome{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	min-height:100%;
+	background-color:#BD4;
+	padding-top:30px;
+}
+
+.welcome h1{
+	margin:0 auto;
+	font-size:350px;
+	color:#FFF;
+}
+
+.welcome h1 b{
+	font-size:200px;
+	color:#000;
+	font-weight:bolder;
+}
+
+@media (max-width:600px){
+	.welcome h1{
+		margin:0 auto;
+		font-size:250px;
+		color:#FFF;	
+	}
+	
+	.welcome h1 b{
+		font-size:150px;
+		color:#000;
+		font-weight:bolder;
+	}
+}
+
+@media (max-width:500px){
+	.welcome h1{
+		margin:0 auto;
+		font-size:150px;
+		color:#FFF;	
+	}
+	
+	.welcome h1 b{
+		font-size:50px;
+		color:#000;
+		font-weight:bolder;
+	}
+	.welcome h3{
+		font-size:20px;
+	}
+}
+
+.welcome h3{
+	margin-top:-20px;
+	margin-bottom:40px;
+}
+
+.welcome .start{
+
+}
+
+.welcome .start a{
+	color:#FFF;
+	font-size:36px;
+}
+
+a span.go{
+	font-size:100px;
+	color:#FFF;
+}
+
+a span.go-black{
+	font-size:100px;
+	color:#000;
+}
+
+.welcome .start a:hover{
+	text-decoration:none;
+}
+
+.welcome .start a:active{
+	text-decoration:none;
+}
+
+#port-info{
+	margin-top:5%;
+}
+
+#port-skill{
+	margin-top:20px;
+}
+
+h1.port-name{
+	font-family: 'Roboto', sans-serif;
+	font-size: 54px;
+	color:#BD4;
+}
+
+h3.port-role{
+	
+}
+
+img.port-profile-img{
+	max-width:100%;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+p.port-bio{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+div.port-contacts a{
+	color:#FFF;
+	margin-left:5px;
+}
+
+.skill{
+	background:#BD4;
+}
+
+div.port-web-project{
+	margin-bottom:20px;
+}
+
+
+div.port-web-project a{
+	color:#BD4;
+}
+
+div.divider{
+	height:2px;
+	border-top:solid 2px #FFF;
+	margin-bottom:10px;
+}
+
+.bgcolor-green{
+	background-color:#BD4;
+	color:#000;
+}
+
+.bgcolor-green a{
+	color:#FFF;
+}
+
+.box{
+	border:solid 8px #333;;
+	min-height:100px;
+}
+
+.box .icon{
+	margin-top:5px;
+}
